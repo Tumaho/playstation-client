@@ -1,18 +1,18 @@
-import { TimePicker } from 'react-ios-time-picker';
+// import { TimePicker } from 'react-ios-time-picker';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import React, { useState } from 'react'
+import React from 'react'
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
 
 
 function FormPS() {
-    const [value, setValue] = useState('10:00');
-    console.log("VALUE :", value);
-    const onChange = (timeValue) => {
-        setValue(timeValue);
-    }
+    // const [value, setValue] = useState('10:00');
+    // console.log("VALUE :", value);
+    // const onChange = (timeValue) => {
+    //     setValue(timeValue);
+    // }
 
     return (
 

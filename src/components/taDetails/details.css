@@ -1,0 +1,115 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+    }
+
+/* profile card css  starts here*/
+
+
+.card-container {
+    margin: 1% auto 8% auto;
+	background-color: white;
+	/* min-width: 350px; */
+	max-width: 60%;
+	height: auto;
+	border-radius: 14px;
+	box-shadow: 0px 10px 30px hsl(185, 75%, 35%);
+}
+
+header {
+	background-image: url("../../assets/images/gradienta-QWutu2BRpOs-unsplash.jpg");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+}
+
+.profile-img {
+	margin: auto;
+	min-width: 20%;
+	border: solid white 4px;
+	border-radius: 50%;
+	margin-top: 55px;
+}
+
+.bold-text {
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-align: center;
+	padding: 10px 20px 0px 20px;
+}
+
+.normal-text {
+	font-weight: normal;
+	font-size: 0.95rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* SOCIAL STATS */
+.smaller-text {
+	font-weight: normal;
+	font-size: 0.7rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+	line-height: 5px;
+    margin-top: 2%;  /* for the hr after ta name */
+
+}
+
+.social-container {
+   
+	border-top: solid rgb(220, 220, 220) 1px;
+	text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 280px) {
+    img {
+        margin: auto;
+        max-width: 4rem ;
+        border: solid white 4px;
+        border-radius: 50%;
+        margin-top: 75px;
+    }
+
+    
+    .bold-text {
+        font-weight: bold;
+        font-size: 0.8rem;
+        text-align: center;
+        
+    }
+
+    .smaller-text {
+        font-weight: normal;
+        font-size: 0.7rem;
+        color: hsl(0, 0%, 50%);
+        text-align: center;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+        line-height: 10px;
+        margin-top: 2%;  /* for the hr after ta name */
+    
+    }
+}
+
+.datePicker{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}

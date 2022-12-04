@@ -1,0 +1,17 @@
+
+
+
+@media screen and (min-width: 575px){
+    .search_bar{
+        margin: 2% auto;
+        width: 70%
+    }
+}
+
+
+@media screen and (max-width: 575px){
+    .search_bar{
+        margin: 20% auto;
+        width: 70%
+    }
+}

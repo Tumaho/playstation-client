@@ -3,6 +3,7 @@ import Main from "./components/main/Main";
 import ProtectedRoute from "./components/protectedRoute/ProtectedRoute";
 import Signin from "./components/signin/Signin";
 import Details from "./components/taDetails/details";
+import MainCourses from "./components/courses/allCourses/mainCourse";
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
           path="/main"
           element={
             <>
-              <ProtectedRoute><Main /> </ProtectedRoute> 
+              <ProtectedRoute><Main /> </ProtectedRoute>
             </>
           }
         />
@@ -24,6 +25,19 @@ function App() {
             <ProtectedRoute><Details /> </ProtectedRoute>
           </>
         } />
+
+        <Route path="/courses" element={
+          <>
+            <ProtectedRoute><MainCourses /> </ProtectedRoute>
+          </>
+        } />
+
+        {/* <Route path="/course/:id" element={
+          <>
+            <ProtectedRoute><CourseDetails /> </ProtectedRoute>
+          </>
+        } /> */}
+
       </Routes>
     </Router>
   );

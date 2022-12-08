@@ -27,13 +27,13 @@ const SidebarData = [
   {
     title: "Staff",
     path: "/main",
-    icon: <i className="fa fa-area-chart"></i>,
+    icon: <i className="fa fa-group" ></i>,
     cName: "nav-text",
   },
   {
-    title: "Students",
-    path: "/students",
-    icon: <i className="fa fa-group" ></i>,
+    title: "Courses",
+    path: "/courses",
+    icon: <i className="fa fa-area-chart"></i>,
     cName: "nav-text",
   },
 ];

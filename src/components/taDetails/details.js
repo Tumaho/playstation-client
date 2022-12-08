@@ -11,6 +11,7 @@ import { Spinner } from "react-bootstrap";
 import TicketsTableFunction from "./TicketsTableFunction";
 import SideBar from "../sideBar/SideBar";
 import TicketModal from './ticketDetailsModal';
+import MainCourses from "../courses/allCourses/mainCourse";
 
 
 const getData = async (id) => {
@@ -62,9 +63,6 @@ export default function Details() {
                     {
                         ta.tickets && (
                             <>
-
-
-
                                 <div style={{ marginInline: "10%", marginBottom: "10%" }}>
                                     <ProfileCard data={ta} />
                                     <Row xs={12} lg={12} xl={11}>
